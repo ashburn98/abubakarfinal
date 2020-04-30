@@ -1,0 +1,163 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>About Us</title>
+<style>
+	ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #333;
+	  position:relative;
+	  top:0px;
+	  left:0px;
+	  width:100%;
+    }
+
+    li {
+      float: left;
+    }
+
+    li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+
+    li a:hover {
+      background-color: #111;
+    }
+	.head1 {
+		text-align: center;
+		background-color: yellow;
+	}
+	.about {
+		text-align: center;
+	}
+    div.gallery {
+        border: 1px solid #ccc;
+    }
+
+    div.gallery:hover {
+      border: 1px solid #777;
+    }
+
+    div.gallery img {
+      width: 100%;
+      height: auto;
+    }
+
+    div.desc {
+      padding: 15px;
+      text-align: center;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    .responsive {
+      padding: 0 6px;
+      float: left;
+      width: 24.99999%;
+    }
+
+    @media only screen and (max-width: 700px) {
+      .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+      }
+    }
+
+    @media only screen and (max-width: 500px) {
+      .responsive {
+            width: 100%;
+      }
+    }
+
+    .clearfix:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+	body {
+		background-image: url("images/background.jpg");
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-size: cover;
+	}
+	footer {
+		text-align: center;
+	}
+</style>
+</head>
+
+<body>
+	<div class="row">
+		<h1 class="head1"><u>Get Good Gym</u></h1>
+		<ul>
+		    <li><a href="index.html">Home</a></li>
+			<li><a href="aboutus.html">About Us</a></li>
+			<li><a href="contactus.html">Contact Us</a></li>
+		</ul>
+		<div class="about">
+	    <h1>About Us</h1>
+		<p>Is it your first time coming to our gym? Well, here are some <strong>important information and guidelines</strong> that you might need to know!</p>
+		</div>
+			<p>What you can/should do</p>
+		    <li>Play your own music</li><br>
+			<li>Wipe and clean the machine after use</li><br>
+			<li>Chat with each other(not blocking the exercising machines)</li><br>
+			<p>What you should not do</p>
+		    <li>No eating or drinking at anytime in the premises</li><br>
+			<li>No hogging of exercise machine</li><br>
+			<li>No smoking in the premises</li><br>
+	</div>
+	<h2>Gym Environment</h2>
+<h4>Take a look below at some of the images of the atmosphere you can expect at the gym. <span style="color: red;">Lively and Energetic</span>!</h4>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="gym-1.jpg">
+      <img src="gym-1.jpg" alt="Gym3" width="600" height="400">
+    </a>
+    <div class="desc">Lots of weightlifting stations available!</div>
+  </div>
+</div>
+
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="gym3.jpg">
+      <img src="gym3.jpg" alt="Counter" width="600" height="400">
+    </a>
+    <div class="desc">Our front counter and entrance. Sign up with us today!</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="gym2.jpg">
+      <img src="gym2.jpg" alt="Gym2" width="600" height="400">
+    </a>
+    <div class="desc">Assortment of exercising machines for your every need.</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="gym.jpg">
+      <img src="gym.jpg" alt="Gym" width="600" height="400">
+    </a>
+    <div class="desc">Our Dumbell sections for those eager to get into weightlifting.</div>
+  </div>
+</div>
+
+<div class="clearfix"></div>
+</body>
+	<footer>Get Good Gym &copy; <span style="color: red;">Copyright 2020</span> All rights reserved</footer>
+</html>

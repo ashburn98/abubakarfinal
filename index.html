@@ -1,0 +1,125 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Home page</title>
+<style>
+	ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #333;
+	  position:relative;
+	  top:0px;
+	  left:0px;
+	  width:100%;
+    }
+
+    li {
+      float: left;
+    }
+
+    li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+
+    li a:hover {
+      background-color: #111;
+    }
+	.head1 {
+		text-align: center;
+		background-color: yellow;
+	}
+	.container {
+		text-align: center;
+	}
+	.banner {
+		width:100%;
+	}
+	.images {
+		width: 10%;
+		height:auto;
+	}
+	* {
+		box-sizing: border-box;
+	}
+	.column {
+		float: left;
+		width: 33.33%;
+		padding: 10px;
+		height: 300px;
+	}
+	.row:after {
+		content: "";
+		display: table;
+		clear: both;
+	}
+	@media screen and (max-width: 600px) {
+		.column {
+			width: 100%;
+		}
+	}
+	.rate {
+		text-align: center;
+	}
+	.info {
+		text-align: center;
+	}
+	body {
+		background-image: url("background.jpg");
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-size: cover;
+	}
+	footer {
+		text-align: center;
+	}
+</style>
+</head>
+
+<body>
+	<div class="row">
+		<h1 class="head1"><u>Get Good Gym</u></h1>
+		<ul>
+		    <li><a href="index.html">Home</a></li>
+			<li><a href="aboutus.html">About Us</a></li>
+			<li><a href="contactus.html">Contact Us</a></li>
+		</ul>
+	    <img class="banner" src="img.jpg" alt="gym" />
+	    <h3 class="head1">Welcome to the <a href="https://www.harvestfitnesskl.com/?gclid=EAIaIQobChMIxM_WuPaH6QIVGDUrCh0uRgqTEAAYAiAAEgI6b_D_BwE">Get Good Gym</a>. Here, you can try out from a <span style="color: green;"><u>wide range of sports equipment which is catered to helping you stay healthy and in shape</u></span>.</h3>
+		<div class="info">
+		<p>For information on how to stay healthy. <a href="https://www.healthhub.sg/programmes/136/eat-drink-shop-healthy-challenge">Click here</a></p>
+		</div>
+	<div class="container">
+	    <div class="column">
+		    <img class="images" src="dumbell.png" alt="dumbell" />
+			<p>Get those muscles by carrying some of our top</p>
+			<p><strong>quality dumbells</strong>, approved by sports experts.</p>
+	    </div>
+		<div class="column">
+		    <img class="images" src="benchpress.png" alt="benchpress" />
+			<p>Tire youself out as you lift some of the <strong>heaviest</strong></p>
+			<p><strong>weights</strong> available at our gym, keep calm and lift on.</p>
+	    </div>
+		<div class="column">
+		    <img class="images" src="treadmill.png" alt="treadmill" />
+			<p>Run to your hearts content with our <strong>latest treadmills</strong></p>
+			<p>arriving in house today! Time to go all out.</p>
+	    </div>
+	</div>
+	    <div class="rate">
+		    <h3>Booking Rates</h3>
+			<p>For Individuals: $5/hr or $50/day</p>
+			<p>For Corporate: $150(1st floor)/$200(2nd floor) or $300(Whole Gym)</p>
+			<h3>Operating hours</h3>
+			<p>We are open every day(except Mondays and Public Holidays) from 10am to 10pm.</p>
+		</div>
+	</div>
+</body>
+	<footer>Get Good Gym &copy; <span style="color: red;">Copyright 2020</span> All rights reserved</footer>
+</html>
